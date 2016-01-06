@@ -2,9 +2,9 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "main2.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron player.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.34.0"
+    "electron-prebuilt": "^0.34.0",
+    "electron-rebuild": "^1.0.2"
+  },
+  "dependencies": {
+    "tmi.js": "0.0.24"
   }
 }
